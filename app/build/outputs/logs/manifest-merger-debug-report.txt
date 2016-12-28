@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:2:1-99:12
+	package
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:2:11-46
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:7:5-97:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:24.0.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.connorlin.databinding.context.MainActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:13:19-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:15:17-68
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:17:17-76
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.connorlin.databinding.context.DemoActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:20:19-55
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.Demo
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:21:13-25:29
+action#connorlin.databinding.action.Demo
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:22:17-75
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:22:25-73
+category#android.intent.category.DEFAULT
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:24:17-75
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:24:27-73
+activity#com.connorlin.databinding.context.CombineActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:27:19-58
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.Combine
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:28:13-32:29
+action#connorlin.databinding.action.Combine
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:29:25-76
+activity#com.connorlin.databinding.context.TwoWayActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:34:19-57
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.TwoWay
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:35:13-39:29
+action#connorlin.databinding.action.TwoWay
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:36:25-75
+activity#com.connorlin.databinding.context.EventActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:41:9-47:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:41:19-56
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.Event
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:42:13-46:29
+action#connorlin.databinding.action.Event
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:43:25-74
+activity#com.connorlin.databinding.context.ViewStubActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:48:9-54:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:48:19-59
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.ViewStub
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:49:13-53:29
+action#connorlin.databinding.action.ViewStub
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:50:17-79
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:50:25-77
+activity#com.connorlin.databinding.context.AttributeSettersActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:55:9-61:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:55:19-67
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.AttributeSetters
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:56:13-60:29
+action#connorlin.databinding.action.AttributeSetters
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:57:17-87
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:57:25-85
+activity#com.connorlin.databinding.context.ConvertersActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:62:9-68:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:62:19-61
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.Converters
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:63:13-67:29
+action#connorlin.databinding.action.Converters
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:64:25-79
+activity#com.connorlin.databinding.context.NormalObjectActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:69:9-75:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:69:19-63
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.NormalObject
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:70:13-74:29
+action#connorlin.databinding.action.NormalObject
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:71:17-83
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:71:25-81
+activity#com.connorlin.databinding.context.ObserverActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:76:9-82:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:76:19-59
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.Observer
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:77:13-81:29
+action#connorlin.databinding.action.Observer
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:78:25-77
+activity#com.connorlin.databinding.context.ObserverFieldActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:83:9-89:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:83:19-64
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.ObserverField
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:84:13-88:29
+action#connorlin.databinding.action.ObserverField
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:85:17-84
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:85:25-82
+activity#com.connorlin.databinding.context.ObserverCollectionActivity
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:90:9-96:20
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:90:19-69
+intent-filter#android.intent.category.DEFAULT+connorlin.databinding.action.ObserverCollection
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:91:13-95:29
+action#connorlin.databinding.action.ObserverCollection
+ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:92:17-89
+	android:name
+		ADDED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml:92:25-87
+uses-sdk
+INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.databinding:adapters:1.2.1] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.2.1] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:24.0.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\nfl\Android\android-studio-workplace\DataBindingDemo-master\app\src\main\AndroidManifest.xml

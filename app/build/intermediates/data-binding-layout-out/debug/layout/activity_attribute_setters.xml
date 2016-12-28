@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+
+    
+
+                 
+                       
+                                                         
+
+                 
+                      
+                           
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/activity_attribute_setters_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- 这里的object为自定义属性 -->
+        <com.connorlin.databinding.view.Card
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                                 android:tag="binding_1"/>
+
+        <!-- 当url存在时，会自动调用注解方法，即Utils中得loadImage()-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                                 
+            android:tag="binding_2"             />
+        <!-- 此处不能使用mipmap，会编译不过 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:tag="binding_3"          
+                                   />
+
+    </LinearLayout>
+
+         
