@@ -1,5 +1,6 @@
 package com.connorlin.databinding.context;
 
+import android.app.Activity;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
@@ -13,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class CombineActivity extends BaseActivity {
+public class CombineActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

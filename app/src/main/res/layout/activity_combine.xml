@@ -141,5 +141,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{handler.loadString(context)}"/>
+
+        <!-- 经测试双向绑定只在et_test和user间实现，下面的TextView不会改变 -->
+        <EditText
+            android:id="@+id/et_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view) -> handler.onClick(context , user , view)}"
+            android:text="@={user.testEt}"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{etTest.getText().toString()}"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={user.testEt}"/>
     </LinearLayout>
 </layout>

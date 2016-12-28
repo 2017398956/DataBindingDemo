@@ -11,6 +11,8 @@ public class User {
     private final String mLastName;
     private int mAge;
 
+    private String testEt = "test" ;
+
     public User(String firstName, String lastName, int age) {
         this(firstName, lastName);
         mAge = age;
@@ -39,5 +41,13 @@ public class User {
 
     public boolean isAdult() {
         return mAge >= 18;
+    }
+
+    public String getTestEt() {
+        return testEt;
+    }
+
+    public void setTestEt(String testEt) {
+        this.testEt = testEt;
     }
 }

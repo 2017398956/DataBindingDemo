@@ -26,6 +26,8 @@
             android:onClick="@{handler::onClickFriend}"
             android:text="@string/method_preference"
             android:textAllCaps="false"/>
+        <!-- 注意：函数名和监听器对象必须对应 -->
+        <!-- 函数调用也可以使用 `.` , 如handler.onClickFriend , 不过已弃用 -->
 
         <!-- 监听绑定，lambda表达式-->
         <Button
@@ -51,5 +53,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onCheckedChanged="@{(cb, isChecked) -> handler.onCompletedChanged(task, isChecked)}" />
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The first TextView" />
+
+        <!-- 对其他id的引用会自动将“_”替换为驼峰命名法 ; 如果该id无"_"引用时可保持不变-->
+        <TextView
+            android:text="@{firstName.getText().toString()}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
     </LinearLayout>
 </layout>

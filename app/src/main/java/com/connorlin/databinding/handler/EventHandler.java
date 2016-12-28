@@ -21,7 +21,7 @@ public class EventHandler {
     }
 
     public void onClickFriend(View view) {
-        Toast.makeText(mContext, "onClickFriend", Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "id:" + view.getId() + ",class:" + view.getClass(), Toast.LENGTH_LONG).show();
     }
 
     public void onTaskClick(Task task) {
@@ -29,11 +29,13 @@ public class EventHandler {
     }
 
     public void onTaskClickWithParams(View view, Task task) {
+        Toast.makeText(mContext, "id:" + view.getId() + ",class:" + view.getClass(), Toast.LENGTH_LONG).show();
         task.run();
     }
 
     public void onCompletedChanged(Task task, boolean completed) {
         if(completed) {
+            Toast.makeText(mContext, "true", Toast.LENGTH_LONG).show();
             task.run();
         }
     }
